@@ -1,0 +1,120 @@
+html{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;   
+}
+main{
+    opacity: 0.9;
+   
+}
+header{
+    background-color:black;
+    color: seashell;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 0  ;
+    margin: 0;
+    top: 0;
+}
+a {
+    color: seashell;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.logo{
+    float: left;   
+    border-radius: 50px;
+    margin-right: 10px;
+    
+}
+
+ #mission{
+     min-width: 1200px;
+     height: 700px;
+     border-bottom: 1px solid seashell;
+     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+     background-size: cover;
+     margin: auto;
+     margin-bottom: 0px;
+     padding-top: 400px;
+     margin-left: 20px;
+     margin-right: 20px;
+    
+ }
+ .mission{
+    padding: 1px;
+    background-color: black;
+    
+ }
+
+ .container{ 
+   min-width: 1000px;
+   text-align: center;
+   display: flex;
+   flex-flow: row wrap;
+   flex-direction: row;
+   align-content: space-around;
+
+}
+figure img{
+   max-width: 300px;
+   max-height: 200px;
+   border-spacing: 10px;
+ }
+
+#locations{
+ height: 550px;
+ background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+ margin-left: 20px;
+ margin-right: 20px;
+
+}
+#location h2{
+    border-spacing: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.item{
+    text-align: center;
+    display: inline-flex;
+    opacity: 1;
+    padding: 50px 80px;
+    background-color: black;
+    justify-content: space-around;
+    flex-direction: column;
+    border-spacing: 80px;
+    
+}
+.eastbay{
+    border-spacing: 40px;
+    text-align: center;
+    display: inline-flex;
+    opacity: 1;
+    padding: 50px 40px;
+    background-color: black;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+span{ 
+    min-height: 200px;
+}
+.copy{
+    text-align: left;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 350px) and(max-height: 250px){
+    body{
+        font-size: 12px;
+    }
+    img{
+        width: 100%;
+    }
+
+}
