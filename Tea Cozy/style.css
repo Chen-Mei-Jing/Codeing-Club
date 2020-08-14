@@ -3,11 +3,10 @@ html{
     font-size: 22px;
     color: seashell;
     background-color: black;
-    text-align: center;   
+    text-align: center;  
 }
 main{
     opacity: 0.9;
-   
 }
 header{
     background-color:black;
@@ -19,47 +18,54 @@ header{
     margin: 0;
     top: 0;
 }
-a {
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 45%;
+}
+nav li{
+    display: table-cell;
+}
+ li a {
+     text-align: right;
+    padding-top: 20px;
     color: seashell;
-    display: inline-block;
-    margin-left: 20px;
-    
+    display: block;
+    margin-left: 30px;   
 }
 
 .logo{
     float: left;   
     border-radius: 50px;
     margin-right: 10px;
-    
 }
-
- #mission{
-     min-width: 1200px;
-     height: 700px;
-     border-bottom: 1px solid seashell;
-     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-     background-size: cover;
-     margin: auto;
-     margin-bottom: 0px;
-     padding-top: 400px;
-     margin-left: 20px;
-     margin-right: 20px;
-    
+#mission{
+    min-width: 1000px;
+    height: 500px;
+    border-bottom: 1px solid seashell;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 0px;
+    padding-top: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
  }
- .mission{
+.mission{
     padding: 1px;
     background-color: black;
     
  }
 
- .container{ 
+.container{ 
    min-width: 1000px;
    text-align: center;
    display: flex;
    flex-flow: row wrap;
    flex-direction: row;
    align-content: space-around;
-
 }
 figure img{
    max-width: 300px;
